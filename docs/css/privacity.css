@@ -1,0 +1,23 @@
+.privacy-policy {
+    width: 80%;
+    margin: 0 auto;
+    border: 6px solid rgb(139, 139, 139);
+    box-shadow: 20px 30px 40px #2c2b2b;
+}
+
+img {
+    margin: auto;
+}
+
+h3 {
+    text-align: center;
+}
+
+.card_paragraph {
+    width: 78%;
+    margin: auto;
+}
+
+p {
+    text-align: justify;
+}

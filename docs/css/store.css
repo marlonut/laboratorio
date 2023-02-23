@@ -1,0 +1,76 @@
+.card-img-top {
+  width: 300px;
+  aspect-ratio: 1/1;
+  margin: 0 auto;
+}
+
+#hover_img {
+  transform: scale(1);
+  transition: transform 0.3s;
+  box-shadow: 0 0 0px #000;
+}
+
+#hover_img:hover {
+  transform: scale(1);
+  box-shadow: 0 0 5px #000;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+}
+
+.component {
+  padding: 4%;
+  text-align: center;
+}
+
+.center-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: transparent;
+  color: #007bff;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: all 0.3s;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+/*CSS PARA EL CARRUSEL*/
+.image_m {
+    width: 300px;
+    aspect-ratio: 3/2;
+    margin: 0 auto;
+}
+
+.carrusel {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+}
+
+.carrusel-items {
+  display: flex;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  padding: 30px 0px;
+}
+
+.carrusel-item {
+  min-width: 300px;
+  max-width: 300px;
+  height: 200px;
+  cursor: pointer;
+}
